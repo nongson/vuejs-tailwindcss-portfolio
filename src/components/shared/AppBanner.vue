@@ -3,21 +3,44 @@ import feather from 'feather-icons';
 
 export default {
 	name: 'Home',
-	data: () => {
-		return {
-			theme: '',
-		};
-	},
-	created() {
-		this.theme = localStorage.getItem('theme') || 'light';
-	},
-	mounted() {
-		feather.replace();
-		this.theme = localStorage.getItem('theme') || 'light';
-	},
-	updated() {
-		feather.replace();
-	},
+  // Initialize the data object for the component
+  data: () => {
+    /**
+     * Returns the initial data object for the component
+     * @returns {Object} - The initial data object
+     */
+    return {
+      /**
+       * The theme property represents the current theme of the component
+       * @type {string}
+       */
+      theme: '',
+    };
+  },
+  /**
+   * Set the initial theme for the component based on the value stored in local storage.
+   */
+  created() {
+    // Retrieve the theme value from local storage, or default to 'light'.
+    this.theme = localStorage.getItem('theme') || 'light';
+  },
+  /**
+   * Called when the component is mounted to the DOM.
+   */
+  mounted() {
+    // Replace feather icons
+    feather.replace();
+
+    // Get the theme from local storage or set it to 'light' by default
+    this.theme = localStorage.getItem('theme') || 'light';
+  },
+  /**
+   * This method is called when the component is updated.
+   * It replaces the feather icons in the component.
+   */
+  updated() {
+    feather.replace();
+  },
 	methods: {},
 };
 </script>
@@ -40,7 +63,7 @@ export default {
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="Stoman-Resume.pdf"
+					download="Tony-Resume.pdf"
 					href="/files/son_vuejs-3yoe-2023.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
