@@ -4,7 +4,7 @@ export default function useThemeSwitcher() {
     const currentTheme = ref('light')
 
     function toggleTheme() {
-        if (currentTheme.value == 'dark') {
+        if (currentTheme.value === 'dark') {
             setLightTheme()
         } else {
             setDarkTheme()

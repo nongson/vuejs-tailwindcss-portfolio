@@ -5,7 +5,7 @@ import AboutMe from '@/components/about/AboutMe'
 import feather from 'feather-icons'
 
 export default {
-    name: 'About',
+    name: 'AboutView',
     components: {
         AboutMe,
         // AboutCounter,

@@ -2,7 +2,7 @@
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue'
 
 export default {
-    name: 'Projects',
+    name: 'ProjectsView',
     components: {
         ProjectsGrid,
     },

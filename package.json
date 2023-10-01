@@ -26,6 +26,7 @@
     "@babel/eslint-parser": "^7.22.15",
     "@vue/cli-service": "~5.0.8",
     "@vue/compiler-sfc": "^3.2.45",
+    "@vue/reactivity": "^3.3.4",
     "autoprefixer": "^10.4.13",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.50.0",
