@@ -1,0 +1,5 @@
+node_modules/
+*.log*
+dist/
+**/__tests__/reports
+**/junit.xml
