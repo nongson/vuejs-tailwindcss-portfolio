@@ -6,7 +6,7 @@ import ProjectInfo from '../components/projects/ProjectInfo.vue'
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue'
 
 export default {
-    name: 'Projects',
+    name: 'ProjectDetails',
     components: {
         ProjectHeader,
         ProjectGallery,
@@ -17,7 +17,7 @@ export default {
         return {
             singleProjectHeader: {
                 singleProjectTitle: 'Castory Project',
-                singleProjectDate: 'Jul 26, 2021',
+                singleProjectDate: 'Jul 26, 2022',
                 singleProjectTag: 'UI / Frontend',
             },
             projectImages: [
@@ -43,7 +43,7 @@ export default {
                     {
                         id: 1,
                         title: 'Name',
-                        details: 'Company Ltd',
+                        details: 'Castory Project Management',
                     },
                     {
                         id: 2,
@@ -53,17 +53,16 @@ export default {
                     {
                         id: 3,
                         title: 'Website',
-                        details: 'https://company.com',
+                        details: 'castory.com',
                     },
                     {
                         id: 4,
                         title: 'Phone',
-                        details: '555 8888 888',
+                        details: '0964739515',
                     },
                 ],
                 objectivesHeading: 'Objective',
-                objectivesDetails:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+                objectivesDetails: '',
                 technologies: [
                     {
                         title: 'Tools & Technologies',
@@ -72,8 +71,8 @@ export default {
                             'CSS',
                             'JavaScript',
                             'Vue.js',
-                            'TailwindCSS',
-                            'AdobeXD',
+                            'Vuetify',
+                            'Figma',
                         ],
                     },
                 ],
@@ -82,22 +81,27 @@ export default {
                     {
                         id: 1,
                         details:
-                            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                            'Xây dựng Giao diện Người dùng Tương tác: Sử dụng Vue.js để phát triển giao diện người dùng tương tác đòi hỏi kiến thức sâu về Vue.js, bao gồm việc quản lý trạng thái ứng dụng và tương tác người dùng. Tôi đã phải giải quyết việc tạo các thành phần Vue.js động và cập nhật chúng dựa trên hành vi người dùng.',
                     },
                     {
                         id: 2,
                         details:
-                            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                            'Tối ưu hóa Hiệu suất: Đảm bảo ứng dụng hoạt động mượt mà và nhanh chóng là một thách thức quan trọng. Tôi đã phải tối ưu hóa mã nguồn và sử dụng các tiện ích của Vue.js để cải thiện hiệu suất của ứng dụng, bao gồm cả việc tải dữ liệu bất đồng bộ.',
                     },
                     {
                         id: 3,
                         details:
-                            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                            'Tích hợp Với Vuetify: Vuetify là một thư viện giao diện người dùng dựa trên Material Design. Tôi đã phải tương tác chặt chẽ với Vuetify để sử dụng các thành phần và tiện ích có sẵn. Việc tích hợp Vuetify một cách hiệu quả và tuân thủ thiết kế là một thách thức.',
                     },
                     {
                         id: 4,
                         details:
-                            'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                            'Đảm bảo Tương thích Trình duyệt: Một trong những thách thức quan trọng khác là đảm bảo ứng dụng hoạt động trên nhiều trình duyệt khác nhau. Tôi đã phải kiểm tra và sửa lỗi để đảm bảo tính tương thích của ứng dụng trên các trình duyệt phổ biến.',
+                    },
+                    {
+                        id: 5,
+                        details:
+                            'Kiểm thử và Gỡ lỗi: Việc kiểm tra và gỡ lỗi ứng dụng Vue.js và Vuetify là một phần quan trọng của công việc. Tôi đã sử dụng các công cụ kiểm thử và gỡ lỗi để đảm bảo rằng ứng dụng hoạt động một cách đáng tin cậy.',
                     },
                 ],
                 socialSharingsHeading: 'Share This',

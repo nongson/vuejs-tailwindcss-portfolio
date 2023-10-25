@@ -1,11 +1,11 @@
 <script>
 import feather from 'feather-icons'
-import Button from './reusable/Button.vue'
+import CustomButton from './reusable/CustomButton.vue'
 import FormInput from './reusable/FormInput.vue'
 import FormTextarea from './reusable/FormTextarea.vue'
 
 export default {
-    components: { Button, FormInput, FormTextarea },
+    components: { CustomButton, FormInput, FormTextarea },
     props: ['showModal', 'modal', 'categories'],
     data() {
         return {}
@@ -49,12 +49,12 @@ export default {
                                 >
                                     What project are you looking for?
                                 </h5>
-                                <button
+                                <CustomButton
                                     class="px-4 text-primary-dark dark:text-primary-light"
                                     @click="showModal()"
                                 >
                                     <i data-feather="x"></i>
-                                </button>
+                                </CustomButton>
                             </div>
                             <div class="modal-body p-5 w-full h-full">
                                 <form class="max-w-xl m-4 text-left">
@@ -99,7 +99,7 @@ export default {
                                     />
 
                                     <div class="mt-7 pb-4 sm:pb-1">
-                                        <Button
+                                        <CustomButton
                                             title="Send Request"
                                             class="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
                                             type="submit"
@@ -111,7 +111,7 @@ export default {
                             <div
                                 class="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right"
                             >
-                                <Button
+                                <CustomButton
                                     title="Close"
                                     class="px-4 sm:px-6 py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
                                     aria-label="Close Modal"

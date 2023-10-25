@@ -3,14 +3,14 @@ import ThemeSwitcher from '../ThemeSwitcher'
 import HireMeModal from '../HireMeModal.vue'
 import feather from 'feather-icons'
 import AppHeaderLinks from './AppHeaderLinks.vue'
-import Button from '../reusable/Button.vue'
+import CustomButton from '../reusable/CustomButton.vue'
 
 export default {
     components: {
         ThemeSwitcher,
         HireMeModal,
         AppHeaderLinks,
-        Button,
+        CustomButton,
     },
     data() {
         return {
@@ -109,8 +109,8 @@ export default {
 
                 <!-- Small screen hamburger menu -->
                 <div class="sm:hidden">
-                    <button
-                        type="button"
+                    <CustomButton
+                        type="CustomButton"
                         class="focus:outline-none"
                         aria-label="Hamburger Menu"
                         @click="isOpen = !isOpen"
@@ -132,23 +132,23 @@ export default {
                                 d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
                             ></path>
                         </svg>
-                    </button>
+                    </CustomButton>
                 </div>
             </div>
 
             <!-- Header links -->
             <AppHeaderLinks :show-modal="showModal" :is-open="isOpen" />
 
-            <!-- Header right section buttons -->
+            <!-- Header right section CustomButtons -->
             <div
                 class="hidden sm:flex justify-between items-center flex-col md:flex-row"
             >
-                <!-- Hire me button -->
+                <!-- Hire me CustomButton -->
                 <div class="hidden md:block">
-                    <Button
+                    <CustomButton
                         title="Hire Me"
                         class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-                        aria-label="Hire Me Button"
+                        aria-label="Hire Me CustomButton"
                         @click="showModal()"
                     />
                 </div>

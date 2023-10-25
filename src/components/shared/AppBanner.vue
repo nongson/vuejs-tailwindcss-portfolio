@@ -2,7 +2,7 @@
 import feather from 'feather-icons'
 
 export default {
-    name: 'Home',
+    name: 'HomePage',
     // Initialize the data object for the component
     data: () => {
         /**

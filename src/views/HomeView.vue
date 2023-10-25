@@ -1,7 +1,7 @@
 <script>
 import AppBanner from '@/components/shared/AppBanner'
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue'
-import CustomButton from '../components/reusable/Button.vue'
+import CustomButton from '../components/reusable/CustomButton.vue'
 
 export default {
     name: 'HomeView',

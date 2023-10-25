@@ -1,8 +1,9 @@
 <script>
-import Button from '../reusable/Button.vue'
+import CustomButton from '../reusable/CustomButton.vue'
 import FormInput from '../reusable/FormInput.vue'
 import FormTextarea from '../reusable/FormTextarea.vue'
-export default { components: { Button, FormInput, FormTextarea } }
+
+export default { components: { CustomButton, FormInput, FormTextarea } }
 </script>
 
 <template>
@@ -26,7 +27,7 @@ export default { components: { Button, FormInput, FormTextarea } }
                 <FormTextarea label="Message" textarea-identifier="message" />
 
                 <div>
-                    <Button
+                    <CustomButton
                         title="Send Message"
                         class="px-4 py-2.5 text-white tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg duration-500"
                         type="submit"
