@@ -110,7 +110,7 @@ export default {
                 <!-- Small screen hamburger menu -->
                 <div class="sm:hidden">
                     <CustomButton
-                        type="CustomButton"
+                        type="button"
                         class="focus:outline-none"
                         aria-label="Hamburger Menu"
                         @click="isOpen = !isOpen"
@@ -148,7 +148,7 @@ export default {
                     <CustomButton
                         title="Hire Me"
                         class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-                        aria-label="Hire Me CustomButton"
+                        aria-label="Hire Me Button"
                         @click="showModal()"
                     />
                 </div>

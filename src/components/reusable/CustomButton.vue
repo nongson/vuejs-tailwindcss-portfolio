@@ -1,6 +1,6 @@
 <script>
 export default {
-    props: ['titleButton'],
+    props: ['title'],
     data: () => {
         return {
             //
@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <button>{{ titleButton }}</button>
+    <button>{{ title }}</button>
 </template>
 
 <style lang="scss" scoped></style>

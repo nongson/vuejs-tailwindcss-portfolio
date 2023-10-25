@@ -4,7 +4,7 @@
 const projects = [
     {
         id: 1,
-        title: 'Castofy Projects',
+        title: 'Castory Projects',
         category: 'Web Application',
         img: require('@/assets/images/web-project/castory/web-project-1.png'),
     },

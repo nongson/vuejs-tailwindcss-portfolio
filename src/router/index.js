@@ -47,7 +47,7 @@ const routes = [
                 /* webpackChunkName: "projects" */ '../views/SingleProject.vue'
             ),
         meta: {
-            title: 'Stoman - Single Project',
+            title: 'Tony Son - Single Project',
         },
     },
     {
@@ -61,7 +61,7 @@ const routes = [
                 /* webpackChunkName: "projects" */ '../views/ContactView.vue'
             ),
         meta: {
-            title: 'Stoman - Contact',
+            title: 'Tony Son - Contact',
         },
     },
 ]
