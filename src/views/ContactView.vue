@@ -13,7 +13,7 @@ export default {
             contacts: [
                 {
                     id: 1,
-                    name: '18/50 - 21 Yen Xa - Tan Trieu - Thanh Tri - Ha Noi',
+                    name: '16b/39 - 250 Kim Giang - Dai Kim - Thanh Tri - Ha Noi',
                     icon: 'map-pin',
                 },
                 {
